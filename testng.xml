@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="MyShopSuite">
+	<test name="MyShopTest">
+		<classes>
+			<class name="com.myshop.testcase.IndexPageTest" />
+			<class name="com.myshop.testcase.MyAccountPageTest" />
+			<class name="com.myshop.testcase.MyShopTest" />
+			<class name="com.myshop.testcase.PersonalInfoTest" />
+
+		</classes>
+		<exclude name="com.myshop.testcase.IndexPageTest" />
+		<exclude name="com.myshop.testcase.MyAccountPageTest" />
+		<exclude name="com.myshop.testcase.MyShopTest" />
+
+		<listeners>
+			<listener class-name="com.myshop.listeners.TestListener" />
+		</listeners>
+
+	</test>
+</suite>

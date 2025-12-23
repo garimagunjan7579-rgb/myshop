@@ -1,0 +1,2 @@
+cd C:\Users\sidbh\eclipse-workspace\myshop
+mvn test
