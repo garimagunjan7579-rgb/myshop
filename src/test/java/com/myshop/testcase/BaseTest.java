@@ -31,6 +31,7 @@ public class BaseTest {
     @BeforeClass
     public void initializer() {
         logger1.info("Initializing WebDriver...");
+        logger1.info("Selecting browser type");
         switch (browser.toLowerCase()) {
             case "chrome":
                 WebDriverManager.chromedriver().setup();
